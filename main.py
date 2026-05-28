@@ -49,7 +49,9 @@ height = float("5.9")
 print("Your age is: " + str(age))
 print("Your height is: " + str(height))
 
-#type annotations
+#type annotations helps with code readability and can be used by tools for type checking. 
+# It does not affect the runtime behavior of the code but serves as documentation for developers. 
+# Here's how you can use type annotations in Python:
 name: str = "Maxwell"  
 age: int = 30
 height: float = 5.9
